@@ -19,18 +19,16 @@ border:1px solid #F3702;
 }
 .navbar .navbar-nav .active a{
 background-color: #8BC6EC;
-background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
-
-border:1px solid #F3702;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100)
 }
+
+
+
 .navbar a p{
   display:inline;
-}
-.navbar-light .navbar-toggler {
   
-  border:none;
-  margin-right:15px;
 }
+
 
 
 
@@ -102,7 +100,7 @@ img{
 }
 
 .carousel{
-margin-top:110px;
+margin-top:120px;
 
 }
 
@@ -142,8 +140,8 @@ margin-top:110px;
 background-image: radial-gradient( circle 919px at 1.7% 6.1%,  rgba(41,58,76,1) 0%, rgba(40,171,226,1) 100.2% );
   color:#fff;
   width:30%; !important
-  box-shadow: 5px 5px 1px grey;
- transition: : all 2s;
+  box-shadow: 20px 20px 1px orange;
+ transition: all 0.75s;
   border:5px solid grey;
    animation-name: zoomIn;
     animation-duration: 1s;
@@ -157,7 +155,7 @@ background-image: radial-gradient( circle 919px at 1.7% 6.1%,  rgba(41,58,76,1) 
 }
 
 .card:hover{
-transform: scale(1.1);
+transform: scale(1.10);
 
 
   }
@@ -187,12 +185,15 @@ background-image: radial-gradient( circle 919px at 1.7% 6.1%,  rgba(41,58,76,1) 
     animation-duration: 1s;
 
 }
+
     }
 
 
 #conus{
       text-align: center;
     }
+
+   
   
 
 
