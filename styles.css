@@ -1,3 +1,37 @@
+.navbar{
+  background-color: #fff;
+    z-index: 999;
+    position: fixed;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+  
+
+
+.navbar li a:hover{
+background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+border:1px solid #F3702;
+}
+.navbar .navbar-nav .active a{
+background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+border:1px solid #F3702;
+}
+.navbar a p{
+  display:inline;
+}
+.navbar-light .navbar-toggler {
+  
+  border:none;
+  margin-right:15px;
+}
+
+
 
 
 img{
@@ -6,8 +40,7 @@ img{
 .carousel-inner img {
 
   width:100%;
-  height:65vh;
-}
+  height:65vh;}
 
 .navbar{
   font-family: 'Glegoo', serif;
@@ -56,6 +89,10 @@ text-decoration: none;
     transform: translate(0, 0);
     animation-name: zoomOut;
 }
+.carousel{
+margin-top:110px;
+
+}
 /*Carousel End*/
 .order_now_button {
     font-size: 0;
@@ -86,14 +123,23 @@ text-decoration: none;
 
 
 .card{
-  background: linear-gradient(90deg, #A770EF 0%, #CF8BF3 35%, #FDB99B 100%);
+ background-color: #8BC6EC;
+background-image: radial-gradient( circle 919px at 1.7% 6.1%,  rgba(41,58,76,1) 0%, rgba(40,171,226,1) 100.2% );
   color:#fff;
-  border:1px solid black;
+  width:30%; !important
+  box-shadow: 5px 5px 1px grey
+ transition: : all 2s;
+  border:5px solid grey;
    animation-name: zoomIn;
     animation-duration: 1s;
 
 }
-.card h6{
+.card:hover{
+transform: scale(1.1);
+
+
+  }
+  .card h6{
   color:#F37022;
 }
 
@@ -103,9 +149,31 @@ text-decoration: none;
   }
   @media only screen and (max-width: 1200px) {
     .rounded-circle{
-      width:10rem;
+      width:10rem;}
+
+      .card{
+background-image: radial-gradient( circle 919px at 1.7% 6.1%,  rgba(41,58,76,1) 0%, rgba(40,171,226,1) 100.2% );
+  color:#fff;
+  transform: :scale(1.1);
+  border:1px solid black;
+  width:80%;
+  margin:10px 50px;
+   animation-name: zoomIn;
+    animation-duration: 1s;
+
+}
     }
+
+
     #conus{
       text-align: center;
     }
   }
+@media only screen and (max-width:750px)
+{
+.carousel-inner img {
+ visibility: hidden;
+  width:80%;
+  height:40vh;
+}
+}

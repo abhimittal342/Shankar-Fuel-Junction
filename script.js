@@ -10,5 +10,5 @@ jQuery(document).ready(function($) {
       scrollTop: $section.offset().top
     }, 500);
   }
-  $('[data-scroll]').on('click', scrollToSection);
+  
 }(jQuery));
